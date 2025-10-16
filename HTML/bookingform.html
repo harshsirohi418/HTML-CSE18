@@ -7,7 +7,34 @@
 </head>
 <body>
     <form action="" align="center">
-        <caption><h1></h1>
+        <fieldset>
+        <caption><h1>Hotel Room Booking Form </h1></caption><br><br>
+        <label for=""> Full Name:</label>
+        <input type="text"> <br><br>
+        <label for="">email:</label>
+        <input type="email"> <br><br>
+        <label for="">Phone</label>
+        <input type="tel"> <br><br>
+        <label for="">Check-In Date:</label>
+        <input type="date"> <br><br>
+        <label for="">Check-Out Date:</label>
+        <input type="date"> <br><br>
+        <label for="">Room Type:</label>
+        <input list="branch">
+        <datalist id="branch">
+            <option value="Single Room"></option>
+            <option value="Double Room"></option>
+        </datalist> <br><br>
+        <label for="">Number of Guests:</label>
+        <input type="number"> <br><br>
+        <label for="">Special Requests:</label> <br><br>
+        <textarea name="" id="" cols="70" rows="10"></textarea> <br><br>
+    <input type="reset" value="Clear">
+    <input type="submit" value="Submit Form">
+    </fieldset>
+    </form>      
+
+        
     
 </body>
 </html>
