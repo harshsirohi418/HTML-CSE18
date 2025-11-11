@@ -1,0 +1,19 @@
+body{
+    margin:0;
+    padding:0;
+    /* background-color: antiquewhite;
+    background-image: url(31ad2b7d-6af5-4032-99f0-4392d77dfb33.jpg);
+    background-repeat: repeat-y;
+    background-position: top right;
+    background-size: cover; */
+    background: url(31ad2b7d-6af5-4032-99f0-4392d77dfb33.jpg) no-repeat top right #999;
+}
+h1{
+    background-color: blue;
+}
+html,
+* {
+    margin:0;
+    padding:0;
+
+}
