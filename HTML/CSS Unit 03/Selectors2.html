@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        #box p{
+            color:brown;
+        }
+
+        div p{
+            color:red;
+        }
+
+        #box > p{
+            color:chocolate;
+        }
+
+        #box ~ p{
+            color:cornflowerblue;
+        }
+
+        #box + p{
+            color:burlywood;
+        }
+
+        a:link{
+            text-decoration: none;
+        }
+        a:hover{
+            color:brown;font-size:12px;
+        }
+
+        /* ul .odd{
+            color:pink;
+        }
+
+        ul .even{
+            color:red;
+        } */
+        
+        ul li:nth-child(odd){
+            color:red;
+        }
+
+        ul li::first-letter{
+            color:#000; font-size:30px
+
+        }
+        </style>
+</head>
+<body>
+    <div id="box">
+        <p>
+            Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Repudiandae eum, veniam eius impedit dolores est libero modi blanditiis
+             error quidem iste fugiat quas, praesentium voluptatum. Maxime animi vel accusantium omnis.
+        </p>
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quas deserunt veritatis exercitationem
+         eveniet libero esse fuga, placeat repudiandae atque corrupti ut voluptatibus blanditiis repellendus, vero at tempora? Animi, doloribus?
+    <p>
+    <a href="">visit this link</a>
+    <ul>
+    <li class="odd">CSE15</li>
+    <li class="even">CSE16</li>
+    <li class="odd">CSE17</li>
+    <li class="even">CSE18</li>
+    <li class="odd">CSE19</li>
+    <li class="even">CSE20</li>
+    </ul>   
+</body>
+</html>
