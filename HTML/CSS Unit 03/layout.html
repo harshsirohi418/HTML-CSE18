@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body {
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        html,*{
+            box-sizing: inherit;
+        }
+        img {
+            border:2px solid black;
+            float:left;
+        }
+        p {
+            color:blue;
+            display:inline-block;
+        }
+        #para{
+            color:red;
+        } */
+         main{
+            width:900px;
+            height:500px;
+            margin:0 auto;
+            background-color: lightgray;
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: space-between;
+            align-content: last baseline;
+            align-items: last baseline;
+            align-items: flex-end;
+
+         }
+         .box{
+            width:200px;
+            height:200px;
+            background-color: coral;
+         }
+         section{
+            width: 900px;
+            height: 300px;
+            margin:10px auto;
+            background-color: aqua;
+            display: flex;
+            gap: 10px;
+         }
+         #left{
+            flex-grow: 1;
+            background-color: brown;           
+         }
+         #right{
+            flex-grow: 2;
+            background-color: blanchedalmond;
+         }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box" style="height: 300px;">8</div>
+    </main>
+    <!-- <img src="31ad2b7d-6af5-4032-99f0-4392d77dfb33.jpg" alt="">
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, expedita.
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus sequi explicabo modi alias nostrum quidem?
+        </p>
+    </p> -->
+    <section>
+        <div id="left">left</div>
+        <div id="right">right</div>
+    </section>
+    
+</body>
+</html>
