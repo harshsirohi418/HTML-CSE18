@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    nav {
+      width: 100%;
+      background: grey;
+      height: 50px;
+    }
+    main {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      height: 500px;
+    }
+      main > div {
+      border: 1px solid rgb(236, 233, 233);
+    }
+
+    #left {
+      padding: 0.5em;
+    }
+
+    #left-top {
+      width: 100%;
+      height: 30px;
+      background: grey;
+      margin-bottom: 0.5em;
+    }
+
+    #card-container {
+      border: 1px solid rgb(236, 233, 233);
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 1em;
+          width: 80%;
+    }
+
+    #card-container div {
+        background: rgb(179, 176, 176);
+        height: 200px;
+        display: block;
+    }
+
+    #right {
+        padding: 1em;
+    }
+
+    #right-card {
+       background: rgb(179, 176, 176);
+        height: 100%; 
+    }
+  </style>
+  <body>
+    <nav></nav>
+    <main>
+      <div id="left">
+        <div id="left-top"></div>
+        <div id="card-container">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div id="right">
+           <div id="right-card">
+
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+
+
+
+
+
+
+    
+</body>
+</html>
