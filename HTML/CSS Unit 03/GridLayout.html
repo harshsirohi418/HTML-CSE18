@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        html,*{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        main{
+            width: 100%;
+            height: auto;
+            background-color: aqua;
+            display: grid;
+            /* grid-template-columns: 200px 300px auto 140px; */
+            grid-template-columns: repeat(4,1fr);
+            /* grid-template-rows: 100px 80px 500px 120px; */
+            gap: 10px;
+        }
+        .box{
+            background-color: #ccc;
+            height: 200px;
+        }
+        @media screen and (max-width:460px){
+            main{
+                background-color: #f04;
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                gap: 10px;
+            }
+            
+        }
+        @media screen and (max-width:500px) {
+            .box{
+                background-color: rgb(64, 52, 174);
+            }
+            
+        }
+        @media screen and (min-width:498px) and (max-width:700px){
+            h2{
+                font-size: 32px;
+                color: #f04;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <h2>Hello ABES</h2>
+    <main>
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </main>
+    
+</body>
+</html>
