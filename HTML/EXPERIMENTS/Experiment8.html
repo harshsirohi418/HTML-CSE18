@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Student Profile Card</title>
+    <style>
+        *{
+  box-sizing: border-box;
+}
+
+body{
+  background: #f4f6fa;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: row;    
+  justify-content: center; 
+  align-items: center;     
+  flex-wrap: wrap;          
+  gap: 25px;
+  padding: 50px;
+}
+
+.card{
+  width: 300px;
+  background: white;
+  padding: 25px;
+  text-align: center;
+  border-radius: 15px;
+ 
+}
+.circle{
+  width: 80px;
+  height: 80px;
+  background: #0d6efd;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  border-radius: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto 15px;
+}
+
+.card h3{
+  margin-bottom: 8px;
+}
+
+.card p{
+  margin: 4px 0;
+  color: #313131;
+}
+    </style>
+</head>
+<body>
+
+<center>
+    <h1>Student Profile Card</h1>
+    <div class="container">
+
+  <!-- Card 1 -->
+  <div class="card">
+    <div class="circle">JK</div>
+    <h3>Jeet Kumar</h3>
+    <p>B.Tech - CSE</p>
+    <p>Roll No: 21CS1007</p>
+    <p>1st Year</p>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="card">
+    <div class="circle">AR</div>
+    <h3>Asha Rani</h3>
+    <p>B.Tech - IT</p>
+    <p>Roll No: 21IT1012</p>
+    <p>1st Year</p>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="card">
+    <div class="circle">RK</div>
+    <h3>Rohit Kumar</h3>
+    <p>B.Tech - ECE</p>
+    <p>Roll No: 21EC1009</p>
+    <p>1st Year</p>
+  </div></center>
+
+</div>
+</body>
+</html>
