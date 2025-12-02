@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation menu</title>
+    <style>
+span{
+    color: red;
+}
+.head{
+    background-color:rgb(185, 181, 181);
+    text-align: center;
+    padding: 20px;
+    height: 25px;
+}
+.l1{
+background-color: rgb(122, 184, 212);
+color: rgb(122, 85, 122);
+width: 100px;
+height: 30px;
+margin: 5px;
+padding: 10px;
+text-align: center;
+}
+.l2{
+background-color: rgb(153, 240, 112);
+color: rgb(96, 75, 136);
+width: 100px;
+height: 30px;
+margin: 5px;
+text-align: center;
+padding: 10px;
+}
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="head">My <span>Website</span> Navigation</div>
+   <div class="flexcontainer">
+    <div class="l1"> Home </div>
+    <div class="l1"> About</div>
+    <div class="l1"> Services </div>
+    <div class="l1"> Contact</div>
+    </div>
+    <div class="flexcontainer">
+    <div class="l2"> Dashboard </div>
+    <div class="l2"> Profile </div>
+    <div class="l2"> Messages </div>
+    <div class="l2"> Logout </div>
+    </div>
+</body>
+</html>
