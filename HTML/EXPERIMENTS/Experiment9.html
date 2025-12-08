@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Product Grid</title>
+    <style>
+        html,*{
+            margin:0;
+            padding:16px;
+            box-sizing: border-box;
+            font-size: 30px;
+            background-color: #CCC;
+        }
+        .box{
+            background-color: #CCC;
+            height: 385px;
+            border-radius: 8px;
+            box-shadow: 0 2px 2px ;
+        }
+        @media screen and (max-width:600px){
+            main{
+                background-color: rgb(255, 255, 255);
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                gap: 10px;
+            }
+        }
+        @media screen and (min-width:600px) and (max-width:1024px){
+            main{
+                background-color: rgb(255, 255, 255);
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+            }
+   }
+        
+        @media screen and (min-width:1024px){
+            main{
+                background-color: rgb(255, 255, 255);
+                display: grid;
+                grid-template-columns: repeat(4,1fr);
+                gap: 10px;
+            }
+        }
+        p{
+            font-size: 18px;
+        }
+        img{
+            font-size: 26px;
+        }
+    </style>
+</head>
+<body>
+    <h2 align="center">Responsive Product Grid</h2>
+    <main>
+        <div class="box" align="center">
+            <img src="" alt="Product1">
+            <h3>Product 1</h3> 
+            <p>High-quality item with great features.</p>
+            <p><b>&#8377;499</b></p> 
+        </div>
+
+        <div class="box" align="center">
+            <img src="" alt="Product2">
+            <h3>Product 2</h3>
+            <p>Durable and stylish for daily use.</p>
+            <p><b>&#8377;799</b></p>
+        </div>
+
+<div class="box" align="center">
+            <img src="" alt="Product3"> 
+            <h3>Product 3</h3>   
+            <p>Lightweight and comfortable.</p>
+            <p><b>&#8377;1299</b></p>
+        </div>
+
+        <div class="box" align="center">
+            <img src="" alt="Product4">
+            <h3>Product 4</h3>    
+            <p>Trendy design with premium quality.</p>
+            <p><b>&#8377;999</b></p>
+        </div>
+    </main>
+    
+</body>
+</html>
